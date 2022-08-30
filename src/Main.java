@@ -45,8 +45,8 @@ public class Main {
         var numberEmployees=totalHours/oneEmployee;
         System.out.println("количество сотрудников "+numberEmployees);
         numberEmployees=numberEmployees+94;
-        System.out.println(numberEmployees);
+        System.out.println(numberEmployees+"сотрудника");
         var quantityHours=totalHours/numberEmployees;
-        System.out.println("174 сотрудника должны работать "+quantityHours+" часа");
+        System.out.println("174 сотрудника должны работать "+quantityHours+" по часа");
     }
 }
